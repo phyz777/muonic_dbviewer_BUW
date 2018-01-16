@@ -1,0 +1,85 @@
+body {
+  margin:   0px;
+  padding:  0px;
+  overflow: scroll;
+}
+
+header {
+  margin:   0px;
+  padding:  0px;
+  width:100%;
+  cursor: pointer;
+  transition: opacity 3s;
+}
+
+header:hover {
+  opacity: 0.5;
+}
+
+nav {
+  margin:   0px;
+  padding:  0px;
+}
+
+section {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+aside {
+  margin: 0px;
+  padding: 0px;
+  width: 24%;
+}
+
+div {
+  margin:     0px;
+  padding:    0px;
+  transition: height 1.7s linear 1.7s;
+}
+
+table {
+  width: 100%;
+}
+
+h1 {
+  margin: 0px;
+  padding: 0px;
+  cursor:   pointer;
+  text-align: center;
+  font-size: 240%;
+  transition: background-color 3s;
+}
+
+h1:hover {
+  color: #ffffff;
+  background-color: #000044;
+}
+
+th, td {
+  border: 1px solid #dddddd;
+}
+
+td {
+  cursor: pointer;
+  transition: background-color 1.5s;
+}
+
+td:hover {
+  color: #ffffff;
+  background-color: #440000;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+table.hideTable {
+  display: none;
+}
+
+div.hideTable {
+
+}
+
